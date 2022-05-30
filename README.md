@@ -1,2 +1,2 @@
 # marina-velez-Natura
-Paginad de venta de cosmeticos Marina Velez prueba
+Pagina de venta de cosmeticos Marina Velez prueba
