@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+    <title>Marina Velez Natura</title>
+</head>
+<body>
+
+    <!--CON ESTO ARMAMOS LA SOLAPA DE ARRIBA-->
+    <div class="page-nav">
+        <div class="imagen">
+            <img src="/images/natura.png" alt="">
+        </div>
+        <h1>Natura Velez</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+    </div>
+
+    <!-- CON ESTO LA PANTALLA PRINCIPAL-->
+    <div class="page-content">
+
+        <!-- AQUI VAN CADA BLOQUE DE PRODUCTO-->
+        <div class="product-container">
+            <div class="titulo">
+            <h3>KAIK AVENTURA</h3>
+            </div>
+            <img src="images/imag10.jpeg" />
+            <h1>$1700</h1>
+            <button class="button-add" onclick="add('product-1', 1700)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <div class="titulo">
+            <h3>ESSENCIAL EXCLUSIVO</h3>
+            </div>
+            <img src="images/image11.jpeg" />
+            <h1>$1800</h1>
+            <button class="button-add" onclick="add('product-2', 1800)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <div class="titulo">
+            <h3>HUMOR</h3>
+            </div>
+            <img src="images/image12.jpeg" />
+            <h1>$900</h1>
+            <button class="button-add" onclick="add('product-3', 900)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <div class="titulo">
+            <h3>LUNA</h3>
+            </div>
+            <img src="images/imag13.jpeg" />
+            <h1>$2000</h1>
+            <button class="button-add" onclick="add('product-4', 2000)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <div class="titulo">
+            <h3>EKOS</h3>
+            </div>
+            <img src="images/imag14.jpeg" />
+            <h1>$1100</h1>
+            <button class="button-add" onclick="add('product-5', 1100)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <div class="titulo">
+            <h3>ESTA FLOR</h3>
+            </div>
+            <img src="images/imag15.jpeg" />
+            <h1>$870</h1>
+            <button class="button-add" onclick="add('product-6', 870)">Agregar</button>
+        </div>
+    </div>
+</body>
